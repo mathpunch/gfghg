@@ -1,0 +1,18 @@
+{
+  "name": "zyron-2.0",
+  "version": "2.0.0",
+  "description": "Zyron 2.0 - Scramjet proxy",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@mercuryworkshop/bare-mux": "^2.1.8",
+    "@mercuryworkshop/epoxy-transport": "^3.0.1",
+    "@mercuryworkshop/libcurl-transport": "^2.0.5",
+    "@mercuryworkshop/scramjet": "^2.0.0",
+    "@mercuryworkshop/wisp-js": "^0.4.0",
+    "express": "^4.18.2"
+  }
+}
